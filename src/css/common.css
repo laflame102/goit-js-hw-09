@@ -10,9 +10,26 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+ .timer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+} 
+
+.field {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  flex-direction: column;
 }
